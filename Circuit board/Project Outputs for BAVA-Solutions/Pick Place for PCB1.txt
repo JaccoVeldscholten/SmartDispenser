@@ -1,0 +1,49 @@
+Altium Designer Pick and Place Locations
+C:\Users\jacco\Desktop\bava-solutions-circuit-board\Project Outputs for BAVA-Solutions\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       30-10-21
+Time:       17:21
+Revision:   62302f6b70d2d821cff00eb5e4ff48145886b79f
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Footprint                     Center-X(mil) Center-Y(mil) Rotation Description                                                                                                     
+J?         S6B-XH-A-1(LF)(SN) TopLayer FP-S6B-XH-A-1_LF_SN-MFG       2045.001      1577.166      0        "CONN HEADER R/A P6OS 2.5MM"                                                                                    
+R8         10K                TopLayer RESC1609X55X30LL15T15         115.000       380.000       0        "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R7         10K                TopLayer RESC1609X55X30LL15T15         115.000       280.000       180      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+MD1        ESP32-WROOM-32D    TopLayer FP-ESP32-WROOM-32D-MFG        1059.646      610.315       0        "WIFI MODULE 32MBITS SPI FLASH"                                                                                 
+P1         61301011121        TopLayer 61301011121                   1040.000      113.858       180      "THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 10 pins"                                            
+SW2        1571527-2          TopLayer FP-1571527-2-MFG              2230.000      1050.000      0        "SWITCH TACTILE SPST-NO 0.05A 24V"                                                                              
+SW1        1571527-2          TopLayer FP-1571527-2-MFG              2230.000      403.858       0        "SWITCH TACTILE SPST-NO 0.05A 24V"                                                                              
+C8         10uF               TopLayer FP-GRM188-0_1-e0_2_0_55-IPC_C 2010.000      538.858       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 10uF, X5R, 15%, 20%, 6.3V"                       
+J3         629105150921       TopLayer 629105150921                  1835.000      123.996       0        "Micro USB 2.0 Type AB Receptacle WR-COM, Horizontal, SMT"                                                      
+U4         1655               TopLayer ADA-RGB-1655_V                1825.000      538.858       180      "Intelligent Control LED Integrated Light Source, 3.5 to 5.3 V, -25 to 80 degC, 4-Pin SMD, RoHS, Tape and Reel" 
+R6         10K                TopLayer RESC1609X55X30LL15T15         1679.409      763.858       0        "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R5         10K                TopLayer RESC1609X55X30LL15T15         1680.000      843.858       180      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+D1         BAT54HT1G          TopLayer ONSC-SOD-323-2-477-02_V       1785.000      308.858       90       "Schottky Barrier Diode, 2-Pin SOD-323, Pb-Free, Tape and Reel"                                                 
+J5         B3B-XH-A(LF)(SN)   TopLayer FP-B3B-XH-A_LF_SN-MFG         1455.000      1574.528      0        "CONN HEADER VERT 3POS 2.5MM"                                                                                   
+J2         B3B-XH-A(LF)(SN)   TopLayer FP-B3B-XH-A_LF_SN-MFG         1005.000      1574.528      0        "CONN HEADER VERT 3POS 2.5MM"                                                                                   
+U3         BME280             TopLayer FP-BME280-MFG                 1825.000      798.858       180      "SENSOR PRESSURE HUMIDITY TEMP"                                                                                 
+U2         CH340C             TopLayer SO016                         1800.000      1198.858      0        "USB to serial chip CH340"                                                                                      
+U1         TC1262-3.3VDBTR    TopLayer SOT-223-DB3_L                 375.000       658.858       90       "500mA Fixed Output CMOS LDO, 3-Pin SOT-223, Extended Temperature, Tape and Reel"                               
+R11        10K                TopLayer RESC1609X55X30LL15T15         490.000       318.858       90       "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R10        1K                 TopLayer RESC1609X55X30LL15T15         555.000       318.858       270      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R4         10K                TopLayer RESC1609X55X30LL15T15         260.000       1033.858      90       "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R3         470                TopLayer RESC1609X55X30LL15T15         1535.000      1193.858      270      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R2         470                TopLayer RESC1609X55X30LL15T15         1650.000      1013.858      180      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+R1         10K                TopLayer RESC1609X55X30LL15T15         270.000       1198.858      270      "Chip Resistor, 10 KOhm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+Q3         MMBT2222ALT1G      TopLayer ONSC-SOT-23-3-318-08_V        365.000       333.858       90       "General Purpose Transistor, NPN Silicon, 3-Pin SOT-23, Pb-Free, Tape and Reel"                                 
+Q2         NPN                TopLayer ONSC-SOT-23-3-318-08_V        375.000       1043.858      0        "High Voltage Transistor, NPN Silicon, 3-Pin SOT-23, Pb-Free, Tape and Reel"                                    
+Q1         NPN                TopLayer ONSC-SOT-23-3-318-08_V        380.000       1198.858      0        "High Voltage Transistor, NPN Silicon, 3-Pin SOT-23, Pb-Free, Tape and Reel"                                    
+J4         B2B-XH-A(LF)(SN)   TopLayer FP-B2B-XH-A_LF_SN-MFG         610.000       1574.528      0        "CONN HEADER VERT 2POS 2.5MM"                                                                                   
+J1         B2B-XH-A(LF)(SN)   TopLayer FP-B2B-XH-A_LF_SN-MFG         265.787       1573.858      0        "CONN HEADER VERT 2POS 2.5MM"                                                                                   
+C7         100nF              TopLayer CAPC1608X90X35ML10T15         1975.000      838.858       90       "Chip Capacitor, 0.1 uF, +/- 10%, 50 V, -55 to 125 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+C6         100nF              TopLayer CAPC1608X90X35ML10T15         1535.000      1310.000      270      "Chip Capacitor, 0.1 uF, +/- 10%, 50 V, -55 to 125 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+C5         100nF              TopLayer CAPC1608X90X35ML10T15         1650.000      1383.858      180      "Chip Capacitor, 0.1 uF, +/- 10%, 50 V, -55 to 125 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+C4         100nF              TopLayer CAPC1608X90X35ML10T15         610.000       1028.858      270      "Chip Capacitor, 0.1 uF, +/- 10%, 50 V, -55 to 125 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+C3         100nF              TopLayer CAPC1608X90X35ML10T15         505.000       1028.858      270      "Chip Capacitor, 0.1 uF, +/- 10%, 50 V, -55 to 125 degC, 0603 (1608 Metric), RoHS, Tape and Reel"               
+C2         10uF               TopLayer FP-GRM188-0_1-e0_2_0_55-IPC_C 575.000       642.554       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 10uF, X5R, 15%, 20%, 6.3V"                       
+C1         10uF               TopLayer FP-GRM188-0_1-e0_2_0_55-IPC_C 170.000       642.554       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 10uF, X5R, 15%, 20%, 6.3V"                       
