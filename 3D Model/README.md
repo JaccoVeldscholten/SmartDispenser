@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/jaccoveldscholten/smartdispenser"><img src="../Logo_Medium.png" width="656" height="175"></a>
+  <a href="https://github.com/jaccoveldscholten/smartdispenser"><img src="https://github.com/JaccoVeldscholten/SmartDispenser/blob/main/docs/Logo_Medium.png" width="656" height="175"></a>
 </div>
 
 # 3D Design & Assembly
