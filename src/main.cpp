@@ -104,7 +104,7 @@ void SelectWakeUp(void)
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(DEBUG_BAUD);
   sys_delay_ms(100);                                    /* Give the Bus some time to setup */
   bootCount++;                                          /* Keep track of the boot time */
   Serial.println("Boot number: " + String(bootCount));

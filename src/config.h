@@ -38,8 +38,10 @@
 #define TIME_TO_SLEEP_RECHECK  180                
 
 /* Hardware Configuration */
-#define GPIO_MOTION_PIR 14            
+#define GPIO_MOTION_PIR 14  
 
+/* BAUD Debug Rate ex: 9600 */
+#define DEBUG_BAUD 9600
 
 /* Timer Sleep Configuration (Keep as it) */
 #define uS_TO_S_FACTOR 1000000            // Conversion factor for micro seconds to seconds
