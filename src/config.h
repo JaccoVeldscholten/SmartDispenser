@@ -29,7 +29,7 @@
 #define TRESHOLD_CO2_MAX                500
 
 /* API URL To Send Data to */
-#define API_URL                         "http://us-central1-bava-solutions.cloudfunctions.net/AddDeviceData"
+#define API_URL                         "https://us-central1-bava-solutions.cloudfunctions.net/AddDeviceData"
 
 /* Measurement Interval */
 /* Time Device will go to sleep (in seconds) */
