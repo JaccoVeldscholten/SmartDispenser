@@ -25,10 +25,10 @@ void TVOC::initSensor(){
     sensor.setMeasCycle(sensor.eCycle_250ms);
 }
 
-uint8_t TVOC::fetchTVOC(){
+uint16_t TVOC::fetchTVOC(){
     return sensor.getTVOCPPB();
 }
 
-uint8_t TVOC::fetchC02(){
+uint16_t TVOC::fetchC02(){
     return sensor.getCO2PPM();
 }

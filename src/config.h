@@ -33,9 +33,9 @@
 
 /* Measurement Interval */
 /* Time Device will go to sleep (in seconds) */
-#define TIME_TO_SLEEP          60                 
+#define TIME_TO_SLEEP          600                 
  /* Time Device will go to sleep (in seconds) before recheck if someone left the toilet */
-#define TIME_TO_SLEEP_RECHECK  60                
+#define TIME_TO_SLEEP_RECHECK  180                
 
 /* Hardware Configuration */
 #define GPIO_MOTION_PIR 14            

@@ -11,8 +11,8 @@ public:
     TVOC();
 
     void initSensor();
-    uint8_t fetchTVOC();
-    uint8_t fetchC02();
+    uint16_t fetchTVOC();
+    uint16_t fetchC02();
 };
  
 #endif
