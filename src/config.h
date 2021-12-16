@@ -45,10 +45,6 @@
 #define uS_TO_S_FACTOR 1000000            // Conversion factor for micro seconds to seconds
 
 
-
-
-
-
 /* SSL Certificate */
 const char* root_ca= \
 "-----BEGIN CERTIFICATE-----\n" \

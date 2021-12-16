@@ -11,8 +11,7 @@ private:
     HTTPClient http;
 public:
     Uplink();
-    void PrintAPI();        /* Debug Function */
-    void SendData();        /* Send Data Struct Function */
+    void SendData();                
 
     String APIUrl;                   /* Storage for API URL */
     StaticJsonDocument<200> doc;     /* DataFrame object */

@@ -9,14 +9,14 @@
 class Temperature
 {
 private:
-
+    BME280 bme;
 public:
     Temperature();
 
     uint8_t tempValue;
     uint8_t humValue;
 
-
+    
     void initSensor();
     double fetchTemp();
     double fetchHum();

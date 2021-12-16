@@ -105,8 +105,8 @@ void SelectWakeUp(void)
 void setup()
 {
   Serial.begin(9600);
-  delay(100);                         /* Give the Bus some time to setup */
-  bootCount++;
+  sys_delay_ms(100);                                    /* Give the Bus some time to setup */
+  bootCount++;                                          /* Keep track of the boot time */
   Serial.println("Boot number: " + String(bootCount));
   Serial.println("We are coming in with state: " + String(state));
   SelectWakeUp();
@@ -115,12 +115,12 @@ void setup()
 
   server.APIUrl = API_URL; // Parse config
 
-  /* Init the sensors without spamming the i2c bus */
+  /* Init the sensors without spamming the I2C bus */
+  /* The delay also helps to give the TVOC Sensor time to measure */
   tvoc.initSensor();
-  delay(250);
+  sys_delay_ms(250);
   temp.initSensor();
-  delay(250);
-
+  sys_delay_ms(250);
 
   Serial.println("Setup wifi Begin\n");
   WiFi.disconnect();
@@ -131,6 +131,7 @@ void setup()
   {
     Serial.print('.');
     delay(1000);
+    /* In case the WiFi is still not connected the MCU will restart */
     if(wifiTimout++ > WIFI_TIMER_TRESHOLD){
       ESP.restart();
     }

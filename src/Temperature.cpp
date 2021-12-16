@@ -55,26 +55,30 @@ uint8_t humi_overSample = 1;  /* oversampling humidity x1 */
 uint8_t pres_overSample = 1;  /* oversampling pressure x1 */
 
 
-BME280 bme;
 Temperature::Temperature(){}
 
+/* This function will initialize the sensor based on the specified parameters */
 void Temperature::initSensor(){
     bme.settings(address, mode, standby, filter, temp_overSample, humi_overSample, pres_overSample);
     bme.begin();
 }
 
+/* Return the temperature feched by the sensor */
 double Temperature::fetchTemp(){
     return round(bme.readTemp());
 }
 
+/* Return the humiditiy feched by the sensor */
 double Temperature::fetchHum(){
     return round(bme.readHumidity());
 }
 
+/* Return the pressure feched by the sensor */
 double Temperature::fetchPressure(){
     return round(bme.readPressure());
 }
 
+/* Return the altitude feched by the sensor */
 double Temperature::fetchAltitude(){
     return round(bme.readAltitude());
 }

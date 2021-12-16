@@ -15,20 +15,21 @@ TVOC::TVOC(){}
 */
 
 void TVOC::initSensor(){
-    //Serial.println("Init TVOC Sensor");
-
+    
+    /* Setup the sensor and adjust the mode to right setting. */
     while(sensor.begin() != 0){
         Serial.println("ERR 1: Failed to setup connection with TVOC");
         delay(1000);
-        //exit(-1);       /* Core dump */
     }
     sensor.setMeasCycle(sensor.eCycle_250ms);
 }
 
+/* Return the PPM TVOC feched by the sensor */
 uint16_t TVOC::fetchTVOC(){
     return sensor.getTVOCPPB();
 }
 
+/* Return the C02 feched by the sensor */
 uint16_t TVOC::fetchC02(){
     return sensor.getCO2PPM();
 }

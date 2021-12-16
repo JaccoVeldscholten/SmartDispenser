@@ -1,15 +1,8 @@
 #include "Uplink.h"
  
-// Documentation:
-// https://randomnerdtutorials.com/esp32-http-get-post-arduino/
 Uplink::Uplink(){}
 
-
-void Uplink::PrintAPI(){
-    /* Debug Function to test the API Url*/
-    Serial.println(APIUrl);
-}
-
+/* This function retrieves the right data and sends it */
 void Uplink::SendData(){
     String jsonToSend;
 
