@@ -7,11 +7,11 @@
 //#define WIFI_SSID                       "Uitvinderz"
 //#define WIFI_PASSWORD                   "u!tv1nderz"
 
-#define WIFI_SSID                       "BAVA"
-#define WIFI_PASSWORD                   "u!tv1nderz"
+//#define WIFI_SSID                       "BAVA"
+//#define WIFI_PASSWORD                   "u!tv1nderz"
 
-//#define WIFI_SSID                       "FBI Bus"
-//#define WIFI_PASSWORD                   "w@chtw00rd!"
+#define WIFI_SSID                       "FBI Bus"
+#define WIFI_PASSWORD                   "w@chtw00rd!"
 
 //#define WIFI_SSID                       "iPhone van Jacco"
 //#define WIFI_PASSWORD                   "w@chtw00rd!"
@@ -29,7 +29,7 @@
 #define TRESHOLD_CO2_MAX                500
 
 /* API URL To Send Data to */
-#define API_URL                         "https://us-central1-bava-solutions.cloudfunctions.net/AddDeviceData"
+#define API_URL                         "http://us-central1-bava-solutions.cloudfunctions.net/AddDeviceData"
 
 /* Measurement Interval */
 /* Time Device will go to sleep (in seconds) */
