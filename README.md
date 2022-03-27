@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/jaccoveldscholten/smartdispenser"><img src="https://github.com/JaccoVeldscholten/SmartDispenser/blob/main/docs/Logo_Medium.png" width="656" height="175"></a>
+  <a href="https://github.com/jaccoveldscholten/smartdispenser"><img src="https://github.com/JaccoVeldscholten/SmartDispenser/blob/main/Embedded Software/docs/Logo_Medium.png" width="656" height="175"></a>
 </div>
 
 [![PlatformIO Build](https://github.com/JaccoVeldscholten/SmartDispenser/actions/workflows/build_embedded.yml/badge.svg)](https://github.com/JaccoVeldscholten/SmartDispenser/actions/workflows/build_embedded.yml)
