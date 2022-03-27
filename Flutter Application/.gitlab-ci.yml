@@ -1,0 +1,15 @@
+stages:
+  - test
+
+build:
+  image: cirrusci/flutter
+  stage: test
+  script:
+    - flutter clean
+    - flutter pub get
+    - flutter build apk
+
+  artifacts:
+    paths:
+      - "**/**/**/**/**/**/*.apk"
+    expire_in: 5 day
